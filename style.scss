@@ -178,6 +178,9 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   padding: 1rem;
+  // Reduce padding on top and bottom.
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size: .8rem;
   line-height: 1.4;
   white-space: pre;
@@ -189,9 +192,19 @@ pre {
 
 pre code {
   padding: 0;
-  font-size: 100%;
+  // font-size: 100%;
+  font-size: 14px;
   color: inherit;
   background-color: transparent;
+}
+
+// Override user agent styles on figure during local dev.
+figure {
+  display: block;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
 }
 
 .highlight {

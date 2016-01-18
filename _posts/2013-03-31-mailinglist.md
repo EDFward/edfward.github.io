@@ -11,7 +11,7 @@ tags: linux, server
     - server 端 `nc -l 25` 和 client 端 `echo hello | nc IP 25`也能检测这个端口是不是有问题
     - 之后修改防火墙规则再 `iptables-restore` 就行了
 - postfix 和 mailman 安装后最好都 `sudo dpkg-reconfigure xxx` 一下，之后按着[教程](http://free-electrons.com/blog/mailman-howto-ubuntu-10-04/)来问题都不大
-- 关于 [How to host multiple subdomains](http://library.linode.com/hosting-website#sph_configuring-name-based-virtual-hosts)）
+- 关于 [How to host multiple subdomains](http://library.linode.com/hosting-website#sph_configuring-name-based-virtual-hosts)
 - mailman 最开始新建的 mailman 邮件列表千万不要删掉，否则据说会出现灵异现象。（可以通过调节 Privacy 来隐藏它）
 - 调试好 postfix 后可以通过下载 bsd-mailx 发邮件来测试成功与否
 - `tail -f /var/log/mail.log` 紧跟日志

@@ -4,17 +4,17 @@ tags: notes
 ---
 人啊，再不写点东西就老了。哪怕是阅读笔记也好。
 
-### 1.[伙伴分配器的一个极简实现](http://coolshell.cn/articles/10427.html) from *coolshell.cn*
+#### 1.[伙伴分配器的一个极简实现](http://coolshell.cn/articles/10427.html) from *coolshell.cn*
 
 关于 Linux 的 buddy system。这份[示意用的极简程序](https://github.com/wuwenbin/buddy2)十分赏心悦目。
 
 >从逻辑流程上看，wuwenbin的实现简洁明了如同教科书一般，特别是左右子树的走向，内存块的分离合并，块索引到节点下标的转换都是一步到位，不像cloudwu充斥了大量二叉树的深度和长度的间接计算，让代码变得晦涩难读，这些都是longest的功劳。**一个“极简”的设计往往在于你想不到的突破常规思维的地方。**
 
-### 2. [浅谈MySQL索引背后的数据结构及算法](http://blog.renren.com/share/273061768/14310465079) from *Renren*
+#### 2. [浅谈MySQL索引背后的数据结构及算法](http://blog.renren.com/share/273061768/14310465079) from *Renren*
 
 Pocket 里最早的一篇文...终于还是读完了，顺便做了一条[笔记](http://www.evernote.com/shard/s46/sh/c7079f3b-c7d6-43e9-9648-959e6798ecf3/ff228afea0a46d28d9010e90b8db0a7f)。这大概算是要作为为常识来了解的知识吧。
 
-### 3. [The Best Twitter Response to Tragedy: Shut Up](http://www.wired.com/gadgetlab/2013/04/twitter-tragedy-response/) from *Wired*
+#### 3. [The Best Twitter Response to Tragedy: Shut Up](http://www.wired.com/gadgetlab/2013/04/twitter-tragedy-response/) from *Wired*
 
 从波士顿马拉松爆炸事件后 twitter 的快速反应谈起。有一个推说的特别好，
 
@@ -26,7 +26,7 @@ Pocket 里最早的一篇文...终于还是读完了，顺便做了一条[笔记
 **『Do not speak unless you can improve the silence.』**
 
 
-### 4. [Oracle v. Google: Are APIs Copyrightable?](http://cacm.acm.org/magazines/2012/11/156574-oracle-v-google/fulltext) from *Communications of the ACM*
+#### 4. [Oracle v. Google: Are APIs Copyrightable?](http://cacm.acm.org/magazines/2012/11/156574-oracle-v-google/fulltext) from *Communications of the ACM*
 
 API 究竟受不受版权保护（copyrightable）？
 
@@ -40,7 +40,7 @@ API 究竟受不受版权保护（copyrightable）？
 
 当然最终 G 社的胜诉也算是为软件开发行业打了份强心剂吧。
 
-### 5. [给长辈上司写信写邮件，学点礼貌范儿总没错](http://daily.zhihu.com/story/2066349) from *知乎日报*
+#### 5. [给长辈上司写信写邮件，学点礼貌范儿总没错](http://daily.zhihu.com/story/2066349) from *知乎日报*
 
 总结一下。  
 
@@ -62,12 +62,12 @@ API 究竟受不受版权保护（copyrightable）？
 
 >我写信，通常按收信人的惯用风格结尾。对方来信用此致敬礼，我就此致敬礼；对方顺颂时祺，我就恭请教安；对方祝好，我就感谢、打扰了。
 
-### 6.[后来得了诺贝尔奖，好玩不？](http://phunter.lofter.com/post/5e7bb_96d65b) from *LOFTER*
+#### 6.[后来得了诺贝尔奖，好玩不？](http://phunter.lofter.com/post/5e7bb_96d65b) from *LOFTER*
 
 很有爱的小文，关于梦想（和博士）...
 
 虽然不读 PhD，但还是对坚持那条路的人表示敬意; -)
 
-### 7. [听阿磊讲故事](http://blog.xiao-jia.com/2012/09/21/liangalei-stories/) from *随便想想*
+#### 7. [听阿磊讲故事](http://blog.xiao-jia.com/2012/09/21/liangalei-stories/) from *随便想想*
 
 偶像的小文，算是记录了一个老师的语录吧。从对待技术，学习和人生的态度上来讲都会让人有所启发，有机会希望能听听他的课。
