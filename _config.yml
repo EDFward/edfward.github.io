@@ -3,22 +3,30 @@
 # # # # # # # #
 
 # Basic
-name:               "Kiko"
+name: "edfward"
+
+title: EDFward's Shop
+email: edfward@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  An Inquiry into Values
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://edfward.com" # the base hostname & protocol for your site
+twitter_username: edfward
+github_username:  edfward
+
+markdown: kramdown
 
 # URL
 baseurl:            ""
-#baseurl:            "" #For Root Domain
-permalink:          /:year/:month/:day/:title.html
+# permalink:          /:year/:month/:day/:title.html
 
-# Markdown
-markdown:           rdiscount
 
 # Navigation
 nav:
-  - name:           "About"
-    href:           "//kiko.gfjaru.com/about"
-  - name:           "Download"
-    href:           "//github.com/gfjaru/Kiko/releases"
+  # - name:           "About"
+    # href:           "//about"
+  # - name:           "Download"
+    # href:           "//github.com/gfjaru/Kiko/releases"
 
 # Sass
 sass:
