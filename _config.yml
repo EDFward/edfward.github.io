@@ -16,6 +16,11 @@ github_username:  edfward
 
 markdown: kramdown
 
+kramdown:
+  input: GFM
+
+exclude: ["*.bak", "*.sh"]
+
 # URL
 baseurl:            ""
 # permalink:          /:year/:month/:day/:title.html

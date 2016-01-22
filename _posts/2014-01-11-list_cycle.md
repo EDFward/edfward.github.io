@@ -32,6 +32,8 @@ tags: c++, programming, algorithm, leetcode
 
 假设入环前的长度为`h`，环的长度为`l`，相遇时在环内的 offset 为`o`。可以很方便的推出：`k+Nl+o = 2(k+o)` 其中`N`为正整数，化简得到`k+o = Nl`，意味着此处再经过`k`个单位必定回到环的起点。Q.E.D
 
-####Reference
+#### Reference
 
 [Finding the Start of a Loop in a Circular Linked List](http://umairsaeed.com/2011/06/23/finding-the-start-of-a-loop-in-a-circular-linked-list/): 讲得很通俗易懂，推荐
+
+

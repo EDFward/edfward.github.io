@@ -50,7 +50,7 @@ update @ 9/14/2013
 
 > The code above is what you need for 90% of your XML parsing cases. Here I'll restate it:
 
-{% highlight python %}
+```python
 magical_parser = XMLParser(encoding='utf-8', recover=True)
 tree = etree.parse(StringIO(your_xml_string), magical_parser) #or pass in an open file object
-{% endhighlight %}
+```

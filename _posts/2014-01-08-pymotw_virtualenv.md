@@ -16,7 +16,7 @@ virtualenv 提供的解决办法就是建立虚拟的环境，有自己独立的
 
 ### virtualenv
 
-{% highlight bash %}
+```bash
 # create the virtual environment in current directory
 $ virtualenv MYENV
 # or inherit system packages
@@ -32,7 +32,7 @@ $ export VIRTUALENV_PYTHON=$HOME/.local/bin/python
 $ virtualenv MYENV
 # or
 $ virtualenv --python=/opt/python-3.3/bin/python MYENV
-{% endhighlight %}
+```
 
 ******
 
@@ -40,7 +40,7 @@ $ virtualenv --python=/opt/python-3.3/bin/python MYENV
 
 virtualenvwrapper 只是将 virtualenv 包装了一下，使得整个过程更加简单。
 
-{% highlight bash %}
+```bash
 # add those to .bashrc or .zshrc, 
 # path of `virtualenvwrapper.sh` may vary
 export WORKON_HOME=$HOME/.virtualenvs
@@ -64,7 +64,7 @@ $ lsvirtualenv  # list, `workon` alone is similar
 $ allvirtualenv pip install -U pip # universal action
 $ lssitepackages # packages in current env
 $ mkproject MYPROJ # an application dir along with virtual env
-{% endhighlight %}
+```
     
 除此之外，还可以在 `$WORKON_HOME` 中对应的 env 里编辑一些 hooks 做自己的事情。比如在 `postactivate` 里添加 `cd /path/to/proj`， 这样启动一个环境后会直接进入工作目录（其实和 `mkproject` 类似了）。各种 hooks 可以戳[这里看官网说明](http://virtualenvwrapper.readthedocs.org/en/latest/scripts.html)。
 

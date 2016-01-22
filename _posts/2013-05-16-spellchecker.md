@@ -32,7 +32,7 @@ tags: python, statistics, bayes, programming
 update @ 1/6/2014  
 附上原文中的代码。
 
-{% highlight python %}
+```python
 import re, collections
 
   def words(text): return re.findall('[a-z]+', text.lower()) 
@@ -63,7 +63,7 @@ import re, collections
   def correct(word):
       candidates = known([word]) or known(edits1(word)) or known_edits2(word) or [word]
       return max(candidates, key=NWORDS.get)
-{% endhighlight %}      
+```
 
 使用：
 
