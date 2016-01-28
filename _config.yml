@@ -19,7 +19,7 @@ markdown: kramdown
 kramdown:
   input: GFM
 
-exclude: ["*.bak", "*.sh"]
+exclude: ["*.bak", "*.sh", "_drafts/"]
 
 # URL
 baseurl:            ""

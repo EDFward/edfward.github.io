@@ -18,10 +18,6 @@ html {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.6;
-
-  @media (min-width: 38em) {
-    font-size: 20px;
-  }
 }
 
 body {
@@ -56,6 +52,15 @@ h1 {
 
 h2 {
   font-size: 1.6rem;
+}
+
+.list-post-title, .post-title {
+  font-weight: 300;
+  font-family: sans-serif;
+}
+
+.content.post {
+  font-family: "Hiragino Sans GB"
 }
 
 h3 {
@@ -129,6 +134,8 @@ hr {
   border: 0;
   border-top: .5px solid #eee;
   border-bottom: .5px solid #eee;
+  height: 1px;
+  background: #eee;
   margin: 1.5rem auto;
 }
 
@@ -150,6 +157,8 @@ abbr[title] {
 }
 
 blockquote {
+  // Since most of them would be English.
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0 0 0 1.5rem;
   margin: 0 2rem 1rem 0;
   color: #999;
@@ -195,7 +204,6 @@ pre {
 
 pre code {
   padding: 0;
-  // font-size: 100%;
   font-size: 14px;
   color: inherit;
   background-color: transparent;
@@ -386,6 +394,12 @@ tbody tr:nth-child(odd) th {
   a {
     color: #333;
   }
+}
+
+.heimu {
+  background-color: #252525 !important;
+  color: #252525 !important;
+  text-shadow: none !important;
 }
 
 .highlight .hll { background-color: #ffffcc }

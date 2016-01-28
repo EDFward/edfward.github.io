@@ -2,7 +2,7 @@
 title: Peter Norvig 的拼写检查器
 tags: python, statistics, bayes, programming
 ---
-> 今天看了 Peter Norvig 的一篇关于拼写检查器的文章（[翻译](http://blog.youxu.info/spell-correct.html)，[原文](http://norvig.com/spell-correct.html)），不仅写的好而且刚好跟不久前实现的一个 Naive-Bayes 名词短语分类器相关，感觉收益良多。简单总结一下文章提到的东西。
+今天看了 Peter Norvig 的一篇关于拼写检查器的文章（[翻译](http://blog.youxu.info/spell-correct.html)，[原文](http://norvig.com/spell-correct.html)），不仅写的好而且刚好跟不久前实现的一个 Naive-Bayes 名词短语分类器相关，感觉收益良多。简单总结一下文章提到的东西。
 
 21行 python 代码实现，功能完备，1 秒处理 10 多个单词，准确率 80%~90%。
 
