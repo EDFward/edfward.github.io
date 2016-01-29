@@ -28,8 +28,8 @@ baseurl:            ""
 
 # Navigation
 nav:
-  # - name:           "About"
-    # href:           "//about"
+  - name:           "关于我"
+    href:           "http://edfward.com/about.html"
   # - name:           "Download"
     # href:           "//github.com/gfjaru/Kiko/releases"
 
