@@ -48,10 +48,18 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 2rem;
+
+  @media (max-width: 400px){
+    font-size: 21.75px;
+  }
 }
 
 h2 {
   font-size: 1.6rem;
+
+  @media (max-width: 400px){
+    font-size: 15px;
+  }
 }
 
 .list-post-title, .post-title {
@@ -61,14 +69,26 @@ h2 {
 
 .content.post {
   font-family: "Hiragino Sans GB", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  @media (max-width: 400px){
+    font-size: 15px;
+  }
 }
 
 h3 {
   font-size: 1.3rem;
+
+  @media (max-width: 400px){
+    font-size: 15px;
+  }
 }
 
 h4, h5, h6 {
   font-size: 1rem;
+
+  @media (max-width: 400px){
+    font-size: 15px;
+  }
 }
 
 p {
@@ -137,6 +157,10 @@ hr {
   height: 1px;
   background: #eee;
   margin: 1.5rem auto;
+
+  @media (max-width: 400px){
+    margin: .5rem auto;
+  }
 }
 
 strong {
@@ -287,6 +311,10 @@ tbody tr:nth-child(odd) th {
   margin-left:  auto;
   margin-right: auto;
 
+  @media (max-width: 400px){
+    padding: 2.5rem 1rem;
+  }
+
   @media (min-width: 38rem){
     padding: 5rem 1rem;
   }
@@ -348,6 +376,10 @@ tbody tr:nth-child(odd) th {
       + a {
         margin-left: .25rem;
       }
+
+      @media (max-width: 400px){
+        font-size: 15px;
+      }
     }
   }
 
@@ -362,11 +394,19 @@ tbody tr:nth-child(odd) th {
 .post {
   &-title {
     margin-bottom: .25rem;
+    // Since post dates are hidden, give more margin at bottom of the title.
+    @media only screen and (max-width: 400px) {
+       margin-bottom: 1rem;
+    }
   }
   &-date {
     margin-bottom: 2rem;
     font-size: .75rem;
     text-transform: uppercase;
+    // Don't display date in small screen.
+    @media (max-width: 400px) {
+      display: none;
+    }
   }
 }
 
