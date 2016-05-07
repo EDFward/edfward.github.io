@@ -10,7 +10,7 @@ email: edfward@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   An Inquiry into Values
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://edfward.com" # the base hostname & protocol for your site
+url: "http://blog.edfward.com" # the base hostname & protocol for your site
 twitter_username: edfward
 github_username:  edfward
 
