@@ -68,7 +68,7 @@ h2 {
 }
 
 .content.post {
-  font-family: "Hiragino Sans GB", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, "Hiragino Sans GB", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
   @media (max-width: 400px){
     font-size: 15px;
@@ -182,7 +182,7 @@ abbr[title] {
 
 blockquote {
   // Since most of them would be English.
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Palatino, "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0 0 0 1.5rem;
   margin: 0 2rem 1rem 0;
   color: #999;
