@@ -10,7 +10,7 @@ email: edfward@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   An Inquiry into Values
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://blog.edfward.com" # the base hostname & protocol for your site
+url: "https://blog.edfward.com" # the base hostname & protocol for your site
 twitter_username: edfward
 github_username:  edfward
 
@@ -26,8 +26,8 @@ baseurl:            ""
 
 # Navigation
 nav:
-  - name:           "关于我"
-    href:           "http://edfward.com/about.html"
+  - name:           "(cont.)"
+    href:           "https://junjiah.com"
 
 # Sass
 sass:
