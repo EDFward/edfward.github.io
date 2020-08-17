@@ -14,7 +14,7 @@ body {
 }
 
 html {
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: monospace, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', "Bitter", sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.6;
@@ -64,7 +64,6 @@ h2 {
 
 .list-post-title, .post-title {
   font-weight: 300;
-  font-family: "Roboto", sans-serif;
 }
 
 .content.post {
@@ -182,7 +181,7 @@ abbr[title] {
 
 blockquote {
   // Since most of them would be English.
-  font-family: Palatino, "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Palatino, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', "Bitter", sans-serif;
   padding: 0 0 0 1.5rem;
   margin: 0 2rem 1rem 0;
   color: #999;
